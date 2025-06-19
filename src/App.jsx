@@ -7,7 +7,7 @@ import SignUp from './pages/SignUp';
 import Profile from './pages/Profile';
 import './App.css';
 
-export default function App() {
+function App() {
   return (
     <BrowserRouter>
       <Header />
@@ -21,8 +21,4 @@ export default function App() {
     </BrowserRouter>
   );
 }
-
-
-
-
-
+export default App;
